@@ -20,6 +20,17 @@ const Profile = () => {
           duration: 3,
           delay: 0.5,
         }}
+        whileHover={{
+          transition: {
+            type: "",
+            delay: 0,
+            duration: 0.2,
+          },
+          scale: 1.1,
+          zIndex: 1,
+          boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.5)",
+          translateY: "-20px",
+        }}
         src={user.picture}
         alt={user.name}
       />
